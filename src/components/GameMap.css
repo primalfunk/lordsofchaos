@@ -1,0 +1,21 @@
+.game-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.room {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: calc(33.33% - 10px); /* Adjust width for 3 columns, considering margin */
+    box-sizing: border-box; /* Include padding and border in the element's width */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .room {
+        width: calc(50% - 10px); /* 2 columns on smaller screens */
+    }
+}

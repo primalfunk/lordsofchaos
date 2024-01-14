@@ -1,0 +1,16 @@
+{
+    "structure": ["castle floor", "chamber wall", "ancient doorway"],
+    "adjective": ["thick", "glistening", "dusty"],
+    "substance": ["dust", "moss", "vines"],
+    "signs": ["no footprints", "strange markings", "faint glimmers of magic"],
+    "sensory_action": ["hear", "feel", "sense"],
+    "atmospheric_sound": ["wind howling", "distant thunder", "ghostly whispers"],
+    "Natural_feature": ["Moonlight", "Sunlight", "A gentle breeze"],
+    "action": ["streams", "pours", "whispers"],
+    "structure_feature": ["window high on the wall", "crack in the ceiling", "small opening"],
+    "mysterious_object": ["glowing orb", "ancient tome", "strange artifact"],
+    "location": ["in the corner", "on the pedestal", "under the table"],
+    "strange_effect": ["soft glow", "humming sound", "cold aura"],
+    "distant_sound": ["echoing footsteps", "faint melody", "muffled voices"],
+    "direction": ["the next room", "above", "somewhere in the distance"]
+  }

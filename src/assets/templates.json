@@ -1,0 +1,7 @@
+{
+  "appearance": ["You see a {structure} with a {adjective} layer of {substance} that shows {signs}."],
+  "atmosphere": ["Outside, you can {sensory_action} the {atmospheric_sound}."],
+  "feature": ["{Natural_feature} {action} in through a {structure_feature}."],
+  "mystery": ["A {mysterious_object} lies {location}, emitting a {strange_effect}."],
+  "sound": ["You {sensory_action} a {distant_sound} coming from {direction}."]
+}

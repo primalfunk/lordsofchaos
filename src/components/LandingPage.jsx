@@ -23,7 +23,7 @@ const LandingPage = ({ onStartGame }) => {
                 <div className="site-layout-content" style={{ textAlign: 'center' }}>
                     <Title level={2}>Welcome to Lords of Chaos</Title>
                     <Button type="primary" size="large" onClick={onStartGame}>
-                        Start Game
+                    Start Game
                     </Button>
                 </div>
             </Content>

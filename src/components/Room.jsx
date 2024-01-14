@@ -1,13 +1,11 @@
 import React from 'react';
-import { Card } from 'antd';
 
-const Room = ({ description, exits, onRoomClick }) => {
+const Room = ({ roomData, onClick }) => {
+    // Convert polygon points to a string for the 'points' attribute in SVG
+    const points = roomData.polygon.map(p => p.join(",")).join(" ");
+
     return (
-        <Card onClick={onRoomClick} hoverable>
-            <h3>Room</h3>
-            <p>{description}</p>
-            {/* Display exits or other room info here */}
-        </Card>
+        <polygon points={points} onClick={onClick} fill="blue" stroke="black" />
     );
 };
 

@@ -1,0 +1,13 @@
+/* Landscape orientation */
+@media screen and (orientation: landscape) {
+    .responsive-box {
+      width: 50%; /* Each box takes up half the width */
+    }
+  }
+  
+  /* Portrait orientation */
+  @media screen and (orientation: portrait) {
+    .responsive-box {
+      width: 100%; /* Each box takes up the full width */
+    }
+  }
